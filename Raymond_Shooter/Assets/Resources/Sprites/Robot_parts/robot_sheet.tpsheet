@@ -1,0 +1,20 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:d27f74de33480ba1b47aba12fd3ed7f8:e397a44676a9d85c549e1347cd69ea3b:d020afcf7915e1d27b5419eb6fbdf4c5$
+#
+:format=40300
+:texture=robot_sheet.png
+:size=128x128
+:pivotpoints=enabled
+:borders=disabled
+
+robot0_piece_body;36;30;25;32; 0.5;0.5; 0;0;0;0; 5;25;17;14;0;0;0;0;32;25;32; 3;0;3;4;1;2;3;0;1;3
+robot0_piece_body2;47;95;19;32; 0.5;0.5; 0;0;0;0; 5;19;2;14;0;0;0;0;32;19;32; 3;1;3;4;1;2;3;0;1;4
+robot_blob;47;73;24;20; 0.5;0.5; 0;0;0;0; 4;24;0;0;0;0;20;24;20; 2;1;2;3;0;1;3
+robot_body;1;64;44;63; 0.5;0.5; 0;0;0;0; 4;44;0;0;0;0;63;44;63; 2;1;2;3;0;1;3
+robot_feet;36;3;30;25; 0.5;0.5; 0;0;0;0; 5;30;0;0;0;0;22;12;25;30;25; 3;0;3;4;1;2;3;0;1;3
+robot_head;1;22;33;40; 0.5;0.5; 0;0;0;0; 4;33;0;0;0;0;40;33;40; 2;1;2;3;0;1;3

@@ -1,0 +1,59 @@
+Game title: Guidance
+
+note paper - 0 1
+glowing edge 1 8 3
+emoji when talking
+real world awareness gameplay
+
+
+demo story:
+A playback of a robot's memory took place before the WWIV when this conciousness carries out the duty of a security guard of a bank.
+the guard chased down the lead of the attack, which eventually turned out to be a robotic clone of Behinders.
+
+
+
+This game is set in a post-apocalyptic world. An robotic engineer facility lays in the 
+middle of a wasteland, abandoned. Despite the lack of crew, a few of 
+the robot pipelines are still operating with the remaining power. 
+
+Chapter 1: There, is where your consciousness kicks in, as of a robot, gradually 
+comes into shape. 
+
+
+Chapter 2: You have fully developed your senses and start to realize your surroundings,
+ the world in chaos. With surprise, you will see that you are the only robot who 
+has the consciousness.  You wander around the facility left with no clue what your next objective is.
+
+
+Rotation calibration
+Orientation
+Visual and movement test, find object
+
+Movement according to nodes
+Movement without nodes
+Movement within a dynamic environment
+
+Interact by pressing button
+Interact by grabbing object
+Moving designated object to specified location
+Arm yourself
+Fire at target
+Discard weapon
+Pairing, humman
+Intelligence test, multiple choices
+Scenario exams (working in factory, stealth mission, rescueing hostage, battefield deployment)
+
+
+Hi all,
+
+Story line:
+
+This game takes place in a post-apocalyptic world. An robotic engineer facility lays in the 
+middle of a wasteland, abandoned. Despite the lack of crew, a few of 
+the robot pipelines are still operating routinely with the remaining power. 
+
+Player perspective starts with a very simple environment: A digital box that spawns at a boxy room, where player has to control the box to perform a series of tasks. As the game progresses, the box gradually comes into a more complicated form, so are the tasks becoming more and more complex. The whole process can be regarded as a test environment designated to construct and examine artificial intelligence. Eventually the player will complete all the tasks required and step foot into the realm of reality.
+
+Of course, the game is not a "tutorial" of how to make artificial intelligence, but also expected to depict the behalf of the robot after it steps outside the door of the factory, and that is the cool aspect of the game: To build a contrast between a digital platform established to serve the human society before the apocalypse and the lifeless world.
+
+This is also a cooperative game which you can play with your friends together to solve puzzles, share supplies and engage enemies. Kind of like the L4D game and won't consist of a massive amount of players at an instance, to this game, maximum of 3 is enough, considering to conserve computational and network resources for elsewhere, such as realistic physics, navigation and AI system etc.

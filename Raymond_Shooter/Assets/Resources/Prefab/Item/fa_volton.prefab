@@ -1,0 +1,388 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1174811779156930}
+  m_IsPrefabParent: 1
+--- !u!1 &1174811779156930
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4380042068234164}
+  - component: {fileID: 212536477188329994}
+  - component: {fileID: 61601452813438010}
+  - component: {fileID: 50172233955464704}
+  - component: {fileID: 114956561603017254}
+  - component: {fileID: 114988710299724122}
+  - component: {fileID: 114393930614723834}
+  - component: {fileID: 114836515945726310}
+  - component: {fileID: 114330656772687686}
+  m_Layer: 10
+  m_Name: fa_volton
+  m_TagString: pickup_gun
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1864807471413566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4980945570361060}
+  m_Layer: 10
+  m_Name: raycastpoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4380042068234164
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1174811779156930}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -57.745705, y: -6.387483, z: 0}
+  m_LocalScale: {x: 0.9591621, y: 0.35144296, z: 0.4437763}
+  m_Children:
+  - {fileID: 4980945570361060}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4980945570361060
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1864807471413566}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.511, y: 0, z: 0}
+  m_LocalScale: {x: 1.4492754, y: 4.347826, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4380042068234164}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &50172233955464704
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1174811779156930}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 3
+  m_LinearDrag: 4
+  m_AngularDrag: 2
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &61601452813438010
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1174811779156930}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.28, y: 1.28}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.28, y: 1.28}
+  m_EdgeRadius: 0
+--- !u!114 &114330656772687686
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1174811779156930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d48218a2cf9862d4d8fe2228b4e56289, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  classname: fa_volton
+  targetname: 
+--- !u!114 &114393930614723834
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1174811779156930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac0b1805f8ff34545ae32b2a7462b41c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  user: {fileID: 0}
+  loaded: 1
+  laserAimOn: 0
+  laserAimColor:
+    serializedVersion: 2
+    key0: {r: 1, g: 1, b: 1, a: 1}
+    key1: {r: 1, g: 1, b: 1, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  laserAimSource: {fileID: 0}
+  laserAimMask:
+    serializedVersion: 2
+    m_Bits: 69208836
+  item_type: 0
+  price: 3700
+  required_experience: 800
+  parented: 0
+  hud_icon: {fileID: 0}
+  hud_icon_anim: {fileID: 0}
+  model: {fileID: 0}
+  tex_n_prop: {fileID: 0}
+  tex_n_prop_unloaded: {fileID: 0}
+  tex_n_equip: {fileID: 0}
+  tex_n_equip_unloaded: {fileID: 0}
+  equip_spr: {fileID: 0}
+  prop_spr: {fileID: 0}
+  equip_spr_unloaded: {fileID: 0}
+  prop_spr_unloaded: {fileID: 0}
+  anim_equip: 1
+  mdl_state_unloaded: 0
+  mdl_state_equiped: 0
+  fade: 0
+  mdl_scale: {x: 0.9591621, y: 0.351443, z: 1}
+  spr_fix_buffer: {fileID: 0}
+  mat_fix_buffer: {fileID: 0}
+  position_buffer: {x: 0, y: 0, z: 0}
+--- !u!114 &114836515945726310
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1174811779156930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2880db72769f2a74493da1ca5bd10052, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ammo: 30
+  capacity: 30
+  rate_of_fire: 5
+  burst_shots: 1
+  isSemiAuto: 0
+  isFullyAuto: 1
+  Local_precomputation: 1
+  firemode: 1
+  guntype: 19
+  ammotype: 8
+  blt_speed: 1000
+  blt_speed_min: 100
+  blt_speed_damp: 0
+  blt_mass: 0
+  blt_color:
+    serializedVersion: 2
+    key0: {r: 0.47794116, g: 0.9351927, b: 1, a: 0.5803922}
+    key1: {r: 0, g: 0.25517225, b: 1, a: 0.24313726}
+    key2: {r: 0.034482475, g: 0, b: 1, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 7132
+    ctime2: 65535
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 20046
+    atime2: 65535
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 3
+    m_NumAlphaKeys: 3
+  blt_texture: {fileID: 2800000, guid: bedeb17b943e0b847979f84d65911461, type: 3}
+  blt_custom: 1
+  thermal: 8000
+  effective_dist: 100
+  maximum_dist: 130
+  noise_dist: 100
+  power: 0
+  radius: 15
+  shake_extent: 0
+  accuracy: 3
+  precise: 0
+  recoil: 0
+  weapon_weight: 700
+  weapon_size: 600
+  reload_all: 1
+  reload_time: 6
+  bias_factor: 10
+  rate_of_readjust: 8
+  readjust_factor: 10
+  fire_sound: {fileID: 0}
+  muzzleflash: {fileID: 1438053780269234, guid: e451bd87b9575014aa3695439b89f299,
+    type: 2}
+  spark: {fileID: 0}
+  bullet: {fileID: 1496713105200152, guid: 0284c57108671484da998c19cc7cb196, type: 2}
+  trail: {fileID: 0}
+  ammo_template: {fileID: 1823346217421426, guid: 399592ca8b865c146b9c9919aaa426cf,
+    type: 2}
+  fire_point: {fileID: 4980945570361060}
+  time_to_fire: 0
+  time_to_readjust: 0
+  firecone_angle: 0
+--- !u!114 &114956561603017254
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1174811779156930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 162
+    i1: 133
+    i2: 26
+    i3: 234
+    i4: 188
+    i5: 252
+    i6: 33
+    i7: 164
+    i8: 170
+    i9: 194
+    i10: 137
+    i11: 82
+    i12: 96
+    i13: 235
+    i14: 34
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114988710299724122
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1174811779156930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 2
+  m_SendInterval: 0.25
+  m_SyncRotationAxis: 3
+  m_RotationSyncCompression: 2
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.05
+  m_VelocityThreshold: 0.01
+  m_SnapThreshold: 2
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 1
+--- !u!212 &212536477188329994
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1174811779156930}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 98bcd79171b32124c9476d769020319e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -622314335
+  m_SortingLayer: 1
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 1b90d7168754039468da3651244d70b1, type: 3}
+  m_Color: {r: 1, g: 0.90993917, b: 0.18382353, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0

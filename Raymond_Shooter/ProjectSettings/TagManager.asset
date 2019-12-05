@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - zombie
+  - pickup_gun
+  - pickup_ammo
+  - zombie_ai
+  - node
+  - pickup_prop
+  - bot
+  - pickup_interactable
+  - bullet
+  - bullet_laser
+  - bullseye
+  - bullet_rocket
+  - bullet_flame
+  - pickup_grenade
+  - civilian
+  - headsquirt
+  - VertHandle
+  - prop
+  - hiding_spot
+  - character_main_hitbox
+  - human
+  - bullet_tesla
+  - character
+  - structure
+  - fx
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Human
+  - Zombie
+  - Items
+  - Level
+  - Props
+  - Props_IgnoreItem
+  - Darkness
+  - HUD
+  - Background
+  - Unselectable
+  - Foreground
+  - Interactables
+  - Clip_Bot
+  - Bot
+  - Level_interiors
+  - Debris
+  - Level_interiors_lit
+  - Headsquirt
+  - Structure
+  - Clip_Characters
+  - Navigation
+  - Background3D
+  - Clip_Human
+  - Clip_Zombie
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 3899500569
+    locked: 0
+  - name: Level_background
+    uniqueID: 2514834561
+    locked: 0
+  - name: Debris
+    uniqueID: 125872751
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Items
+    uniqueID: 3672652961
+    locked: 0
+  - name: Props
+    uniqueID: 1996558095
+    locked: 0
+  - name: NPC_ally
+    uniqueID: 490996185
+    locked: 0
+  - name: Player
+    uniqueID: 3078963113
+    locked: 0
+  - name: NPC_enemy
+    uniqueID: 276107519
+    locked: 0
+  - name: Equiped
+    uniqueID: 2344028609
+    locked: 0
+  - name: character_head
+    uniqueID: 2398664175
+    locked: 0
+  - name: Blood
+    uniqueID: 3820397241
+    locked: 0
+  - name: Bullet
+    uniqueID: 876075093
+    locked: 0
+  - name: Flame
+    uniqueID: 597304175
+    locked: 0
+  - name: Smoke
+    uniqueID: 3267696449
+    locked: 0
+  - name: Light
+    uniqueID: 2911813639
+    locked: 0
+  - name: Level
+    uniqueID: 2717299065
+    locked: 0
+  - name: Darkness
+    uniqueID: 1848391451
+    locked: 0
+  - name: Foreground
+    uniqueID: 2263182293
+    locked: 0
+  - name: HUD
+    uniqueID: 804513525
+    locked: 0
+  - name: Light_above_level
+    uniqueID: 1299811339
+    locked: 0
+  - name: Clip
+    uniqueID: 2130631407
+    locked: 0
+  - name: Curtain
+    uniqueID: 1905868227
+    locked: 0

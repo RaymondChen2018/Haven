@@ -1,0 +1,18 @@
+client ready: check all the spawned items to see if any has strange scene ID, copy network identity values over from other objects
+
+network child must have networktransform: de-hierarchy chair seat and others that have physics joint
+
+
+
+
+To-do list:
+Figure out the animation sequences, player's control.
+Make more sprites for civilians.
+Test out multiplayer feature.
+Client-side animations.
+Officer forgot to face at the player.
+Machinegun animations.
+Hitboxes for players & ally bots.
+Zoom In/Out doesn't work.
+Emoji talkings.
+Car crash render.

@@ -1,0 +1,60 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/Fonts/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/Resources/Sprites/dialog_sheet.tpsheet
+- Assets/Resources/Sprites/FX/Blood/FX_blood_sheet_mist.tpsheet
+- Assets/Resources/Sprites/FX/Blood/FX_blood_sheet1.tpsheet
+- Assets/Resources/Sprites/FX/Blood/FX_blood_sheet3.tpsheet
+- Assets/Resources/Sprites/FX/Blood/FX_sheet3.tpsheet
+- Assets/Resources/Sprites/FX/blood_shed2_sprS.tpsheet
+- Assets/Resources/Sprites/FX/explosion.tpsheet
+- Assets/Resources/Sprites/FX/FX_sheet.tpsheet
+- Assets/Resources/Sprites/FX/FX_sheet2.tpsheet
+- Assets/Resources/Sprites/Human parts/body_sheet_business.tpsheet
+- Assets/Resources/Sprites/Human parts/body_sheet_business_dead.tpsheet
+- Assets/Resources/Sprites/Human parts/head_sheet.tpsheet
+- Assets/Resources/Sprites/Misc_sheet.tpsheet
+- Assets/Resources/Sprites/Robot_parts/bot_sheet_data.tpsheet
+- Assets/Resources/Sprites/Robot_parts/robot_sheet.tpsheet
+- Assets/Resources/Sprites/Robot_parts/robot2_sheet.tpsheet
+- Assets/Resources/Sprites/Zombie_parts/zombie_sheet_data.tpsheet
+textureFileNames:
+- Assets/Fonts/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/Resources/Sprites/dialog_sheet.png
+- Assets/Resources/Sprites/FX/Blood/FX_blood_sheet_mist.png
+- Assets/Resources/Sprites/FX/Blood/FX_blood_sheet1.png
+- Assets/Resources/Sprites/FX/Blood/FX_blood_sheet3.png
+- Assets/Resources/Sprites/FX/Blood/FX_sheet3.png
+- Assets/Resources/Sprites/FX/blood_shed2_sprS.png
+- Assets/Resources/Sprites/FX/explosion.png
+- Assets/Resources/Sprites/FX/FX_sheet.png
+- Assets/Resources/Sprites/FX/FX_sheet2.png
+- Assets/Resources/Sprites/Human parts/body_sheet_business.png
+- Assets/Resources/Sprites/Human parts/body_sheet_business_dead.png
+- Assets/Resources/Sprites/Human parts/head_sheet.png
+- Assets/Resources/Sprites/Misc_sheet.png
+- Assets/Resources/Sprites/Robot_parts/bot_sheet_data.png
+- Assets/Resources/Sprites/Robot_parts/robot_sheet.png
+- Assets/Resources/Sprites/Robot_parts/robot2_sheet.png
+- Assets/Resources/Sprites/Zombie_parts/zombie_sheet_data.png
+normalmapFileNames:
+- Assets/Fonts/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+enableDebugOutput: 0

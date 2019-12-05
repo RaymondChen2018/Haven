@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1763780863796912}
+  m_IsPrefabParent: 1
+--- !u!1 &1763780863796912
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4762450721860740}
+  - component: {fileID: 114888362997065390}
+  - component: {fileID: 114538458841292580}
+  m_Layer: 17
+  m_Name: Client_watcher
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4762450721860740
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1763780863796912}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -178.5, y: 14, z: 0}
+  m_LocalScale: {x: 3.0846393, y: 3.2523096, z: 2.2533875}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114538458841292580
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1763780863796912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 170
+    i1: 205
+    i2: 22
+    i3: 32
+    i4: 140
+    i5: 63
+    i6: 213
+    i7: 116
+    i8: 56
+    i9: 143
+    i10: 2
+    i11: 224
+    i12: 146
+    i13: 249
+    i14: 21
+    i15: 99
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114888362997065390
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1763780863796912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67a4f9d918e9efb44b9419e7debd20db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  players: []
+  human_spawn_points: []
+  robot_spawn_points: []
+  zombie_spawn_points: []
+  sun: {fileID: 0}
+  bleedFX_obj_list: []
+  bleedFX_pos_list: []
+  bleedFX_angle_list: []
+  bleedFX_isHS_list: 
+  suntime_ratio: 0
+  dialog_tmplt: {fileID: 0}
+  Ammoboxes: []
+  Guns: []
+  capacity: 0

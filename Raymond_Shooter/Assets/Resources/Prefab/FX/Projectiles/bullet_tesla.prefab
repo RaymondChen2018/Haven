@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1496713105200152}
+  m_IsPrefabParent: 1
+--- !u!1 &1496713105200152
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4108581216289878}
+  - component: {fileID: 114364505756911596}
+  m_Layer: 0
+  m_Name: bullet_tesla
+  m_TagString: bullet_tesla
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4108581216289878
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1496713105200152}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -181.94691, y: -42.743637, z: -0.99528974}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114364505756911596
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1496713105200152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e525426dbfeb88458d81b8bc923d9f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  max_bounce_range: 15
+  life: 0.5
+  aimdir: {x: 0, y: 0}
+  hit_fltr:
+    serializedVersion: 2
+    m_Bits: 2097920
+  obstacle_fltr:
+    serializedVersion: 2
+    m_Bits: 2048
+  initial_hit_fltr:
+    serializedVersion: 2
+    m_Bits: 0
+  local: 0
+  stream_prefab: {fileID: 1419752141046930, guid: eecfb4f0b6c75e74d90af172b3949744,
+    type: 2}
+  collidedlist: []
+  pool_watcher: {fileID: 0}
+  activator: {fileID: 0}
